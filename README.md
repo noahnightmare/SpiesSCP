@@ -9,6 +9,7 @@ A plugin that adds spies to the game, both NTF and CHI.
 **On a spawn wave, there is a configurable probability that a random person will spawn as a Spy.** 
 
 The spy will act against the team that they spawn with. They can shoot their teammates, but once they do, their disguise is revealed.  
+
 You can also set configurable probabilities for people to become a spy when they escape, and how long their disguise duration should last before they are revealed automatically (you can also disable this).
 
 When the spy dies, their ragdoll will change teams to show that it was the spy that you killed.
@@ -17,8 +18,11 @@ You are able to customise the inventory that a Spy spawns with. Please leave Slo
 
 ## Commands
 
-Client Console  |   .reveal : reveals your true team  
-Remote Admin Panel  |   spy <player id/username> <ntf/chaos> : spawns player as a spy.
+**Client Console**
+.reveal : reveals your true team  
+
+**Remote Admin Panel**
+spy <player id/username> <ntf/chaos> : spawns player as a spy.
 
 ## Default Config
 ```yaml
