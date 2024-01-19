@@ -18,10 +18,10 @@ You are able to customise the inventory that a Spy spawns with. Please leave Slo
 
 ## Commands
 
-**Client Console**
+**Client Console**  
 .reveal : reveals your true team  
 
-**Remote Admin Panel**
+**Remote Admin Panel**  
 spy <player id/username> <ntf/chaos> : spawns player as a spy.
 
 ## Default Config
