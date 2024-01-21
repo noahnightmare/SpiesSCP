@@ -6,7 +6,7 @@ public class ItemChance
 
     public double Chance { get; set; }
 
-    public void Deconstruct(out string name, out double i, out string groupKey)
+    public void Deconstruct(out string name, out double i)
     {
         name = ItemName;
         i = Chance;
